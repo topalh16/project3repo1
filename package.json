@@ -1,0 +1,42 @@
+{
+  "name": "helloWorld",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "firebase": "^6.2.4",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-image-picker": "^1.0.1",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-svg": "^9.5.1",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^5.12.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
